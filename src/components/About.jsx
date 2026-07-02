@@ -237,7 +237,7 @@ export default function About() {
             {/* Download Resume button */}
             <motion.div variants={itemVariants}>
               <a
-                href="/Odom-CV.pdf"
+                href="/cheang_odom.pdf"
                 download
                 className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-liner-to-r from-violet-500 to-cyan-400 px-6 py-3 text-sm font-medium text-white shadow-[0_4px_24px_rgba(124,58,237,0.4)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_6px_32px_rgba(124,58,237,0.6)]"
               >
