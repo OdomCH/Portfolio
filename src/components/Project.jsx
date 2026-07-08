@@ -14,15 +14,15 @@ import { FaGithub, FaArrowUpRightFromSquare } from "react-icons/fa6";
 const PROJECTS = [
   {
     id: 1,
-    title: "E-Commerce Storefront",
+    title: "MindEase",
     category: "Full Stack",
     description:
       "A full-featured online store with cart, checkout, and an admin dashboard for managing inventory in real time.",
-    tech: ["React", "Node.js", "PostgreSQL", "Tailwind"],
+    tech: ["Vue", "Gofiber", "Oracle", "AWS"],
     image:
       "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://mindeasebiu.netlify.app",
+    githubUrl: "https://github.com/mindease-team/mindease-backend.git",
   },
   {
     id: 2,
@@ -33,8 +33,8 @@ const PROJECTS = [
     tech: ["React", "Tailwind", "Framer Motion"],
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://portfolio-cheang-odom.vercel.app/",
+    githubUrl: "https://github.com/OdomCH/Portfolio.git",
   },
   {
     id: 3,
@@ -47,43 +47,7 @@ const PROJECTS = [
       "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
     liveUrl: "#",
     githubUrl: "#",
-  },
-  {
-    id: 4,
-    title: "Real-Time Chat App",
-    category: "Full Stack",
-    description:
-      "A messaging app with live presence indicators, typing states, and persistent chat history.",
-    tech: ["React", "Firebase", "Tailwind"],
-    image:
-      "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=800&q=80",
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 5,
-    title: "Deployment Pipeline",
-    category: "Cloud",
-    description:
-      "An automated CI/CD setup that builds, tests, and deploys containerized services to the cloud on every push.",
-    tech: ["Docker", "AWS", "GitHub Actions"],
-    image:
-      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&q=80",
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 6,
-    title: "Landing Page Builder",
-    category: "Frontend",
-    description:
-      "A drag-and-drop landing page editor with live preview, built around a flexible component system.",
-    tech: ["React", "Tailwind", "JavaScript"],
-    image:
-      "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&q=80",
-    liveUrl: "#",
-    githubUrl: "#",
-  },
+  }
 ];
 
 // Filter button labels — "All" plus every category that
@@ -247,7 +211,7 @@ export default function Projects() {
           <h2 className="mt-5 font-display text-4xl font-semibold text-white sm:text-5xl">
             Things I've built
           </h2>
-          <p className="mx-auto mt-3 max-w-md text-center text-white/50">
+          <p className="inline-flex items-center mx-auto mt-3 max-w-md text-center text-white/50">
             A selection of projects across the stack, from interfaces to
             infrastructure.
           </p>

@@ -16,9 +16,9 @@ import profilePhoto from "../assets/profile.jpg";
 // caption underneath. Add/remove entries here to change the row.
 // ---------------------------------------------------------
 const STATS = [
-  { value: 3, suffix: "+", label: "Years Learning" },
-  { value: 25, suffix: "+", label: "Projects Completed" },
-  { value: 15, suffix: "+", label: "Technologies Learned" },
+  { value: 4, suffix: "+", label: "Years Learning" },
+  { value: 2, suffix: "+", label: "Projects Completed" },
+  { value: 17, suffix: "+", label: "Technologies Learned" },
 ];
 
 // ---------------------------------------------------------
@@ -36,7 +36,7 @@ const INFO_ITEMS = [
   {
     icon: HiOutlineBriefcase,
     label: "Experience",
-    value: "2+ Years as a Full Stack Developer",
+    value: "1 Years as a Full Stack Developer",
   },
   {
     icon: HiOutlineLanguage,
