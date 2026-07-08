@@ -123,7 +123,9 @@ function StatCounter({ value, suffix, label, delay = 0 }) {
           {suffix}
         </span>
       </p>
-      <p className="mt-2 text-sm font-medium text-white/50 sm:text-base">{label}</p>
+      <p className="mt-2 text-sm font-medium text-white/50 sm:text-base">
+        {label}
+      </p>
     </div>
   );
 }
@@ -169,7 +171,10 @@ export default function About() {
         =========================================================== */}
         <div className="grid items-start gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
           {/* ---------- LEFT: FLOATING PROFILE IMAGE ---------- */}
-          <motion.div variants={itemVariants} className="flex justify-center lg:justify-start">
+          <motion.div
+            variants={itemVariants}
+            className="flex justify-center lg:justify-start"
+          >
             <motion.div
               animate={{ y: [0, -14, 0] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
@@ -199,11 +204,11 @@ export default function About() {
               className="text-base leading-relaxed text-white/60 sm:text-lg"
             >
               I'm a full stack developer who enjoys turning ideas into clean,
-              functional products. I care about details, from how an
-              interface feels to how the code behind it is organized, and
-              I'm always looking for the next thing to learn. Outside of
-              writing code, I like exploring new tools and finding better
-              ways to solve familiar problems.
+              functional products. I care about details, from how an interface
+              feels to how the code behind it is organized, and I'm always
+              looking for the next thing to learn. Outside of writing code, I
+              like exploring new tools and finding better ways to solve familiar
+              problems.
             </motion.p>
 
             {/* Info grid — Education, Experience, Languages, Location.
@@ -237,7 +242,7 @@ export default function About() {
             {/* Download Resume button */}
             <motion.div variants={itemVariants}>
               <a
-                href="/Cheang Odom.pdf"
+                href="/Cheang_odom.pdf"
                 download
                 className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-liner-to-r from-violet-500 to-cyan-400 px-6 py-3 text-sm font-medium text-white shadow-[0_4px_24px_rgba(124,58,237,0.4)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_6px_32px_rgba(124,58,237,0.6)]"
               >

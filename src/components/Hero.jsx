@@ -198,7 +198,7 @@ export default function Hero() {
             {/* Secondary CTA — glass outline, sits quietly next to
                 the gradient button instead of competing with it. */}
             <a
-              href="/Cheang Odom.pdf"
+              href="/Cheang_odom.pdf"
               download
               className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/15 bg-white/[0.04] px-6 py-3 text-sm font-medium text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/[0.08]"
             >
@@ -227,7 +227,7 @@ export default function Hero() {
                 href={href}
                 target={href.startsWith("mailto:") ? undefined : "_blank"}
                 rel="noopener noreferrer"
-                aria-label={label}
+               eaaria-label={label}
                 className="cursor-pointer rounded-full border border-white/10 bg-white/[0.03] p-3 text-white/60 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-white/10 hover:text-white"
               >
                 <Icon className="h-4 w-4" />

@@ -208,7 +208,7 @@ export default function Navbar() {
 
           {/* Download CV — last item in the stack */}
           <a
-            href="/cheang_odom.pdf"
+            href="/Cheang_odom.pdf"
             download
             className="mt-2 flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-violet-500 to-cyan-400 px-4 py-3.5 text-sm font-medium text-white shadow-[0_2px_20px_rgba(124,58,237,0.35)] transition-transform hover:-translate-y-0.5 cursor-pointer"
           >
