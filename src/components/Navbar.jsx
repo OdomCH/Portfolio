@@ -151,7 +151,7 @@ export default function Navbar() {
             {/* Gradient CV button — the one "loud" element in an
                 otherwise restrained, monochrome glass nav. */}
             <a
-              href="/cheang_odom.pdf"
+              href="/Cheang Odom.pdf"
               download
               className="group relative ml-1 inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-violet-500 to-cyan-400 px-4 py-2 text-sm font-medium text-white shadow-[0_2px_20px_rgba(124,58,237,0.35)] transition-all duration-300 hover:shadow-[0_4px_28px_rgba(124,58,237,0.55)] hover:-translate-y-0.5 cursor-pointer"
             >
