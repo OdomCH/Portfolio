@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FiGithub, FiFacebook, FiMail, FiArrowRight, FiInstagram } from "react-icons/fi";
 import { HiOutlineArrowDownTray } from "react-icons/hi2";
-import profilePhoto from "../assets/profile1.jpg";
-
+import profilePhoto from "../assets/profile1.JPG";
 // ---------------------------------------------------------
 // Job titles that cycle through the typing effect. Edit this
 // array to add/remove roles — the typing logic below handles
