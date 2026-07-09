@@ -7,7 +7,7 @@ import {
   HiOutlineMapPin,
 } from "react-icons/hi2";
 import { HiOutlineArrowDownTray } from "react-icons/hi2";
-import profilePhoto from "../assets/profile.jpg";
+import profilePhoto from "../assets/profile1.jpg";
 
 // ---------------------------------------------------------
 // Stat data — the three animated counters at the bottom of
